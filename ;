@@ -1,0 +1,13 @@
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex 3b13bd9..ed79e41 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -12,6 +12,7 @@[m
+ 	<artifactId>bookings-ms</artifactId>[m
+ 	<version>0.0.1-SNAPSHOT</version>[m
+ 	<name>bookings-ms</name>[m
+[32m+[m	[32m<packaging>war</packaging>[m
+ 	<description>Demo project for Spring Boot</description>[m
+ 	<url/>[m
+ 	<licenses>[m
